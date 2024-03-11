@@ -1,0 +1,6 @@
+@FilterQueryStringBinder_HostAddress = http://localhost:5133
+
+GET {{FilterQueryStringBinder_HostAddress}}/api?dateOfBirth=~g7t~2023-4-3&firstName=~sw~v&height=12&isActive&isDead=false
+Accept: application/json
+
+###
